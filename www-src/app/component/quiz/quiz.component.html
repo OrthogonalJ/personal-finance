@@ -3,11 +3,12 @@
 </div>
 
 <div class="answer-options-container">
-  <input *ngFor="let answerOption of quiz.currentQuestion.answerOptions"
-          type="radio" name="answer-options" [value]="answerOption"
-          (click)="onAnswerOptionClick(answerOption)">
-
-
+  <div *ngFor="let answerOption of quiz.currentQuestion.answerOptions" class="answer-option-btn">
+    <input type="radio" name="answer-options" [value]="answerOption" 
+        (click)="onAnswerOptionClick(answerOption)">
+    {{answerOption}}
+  </div>
+  
   <!-- <mat-radio-group>
     <mat-radio-button *ngFor="let answerOption of quiz.currentQuestion.answerOptions"
           [value]="answerOption" class="answer-option-btn">
