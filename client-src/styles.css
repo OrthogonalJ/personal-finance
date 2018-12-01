@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+button, .button-anchor {
+    background-color: #efeeee;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 3px;
+    font: sans-serif;
+    padding: 1px 8px;
+}
+
+.button-anchor {
+    text-decoration: none;
+    display: inline-block;
+    text-indent: 0;
+    white-space: inherit;
+}
+
+.button-anchor:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-anchor:active {
+    box-shadow: none;
+}

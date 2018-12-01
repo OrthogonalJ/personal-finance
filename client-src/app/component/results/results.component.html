@@ -1,0 +1,25 @@
+<h1> Results </h1>
+<p>Total Score: {{quiz.getTotalScore()}}</p>
+
+
+<div class="question-results-container">
+  <table class="question-results-tbl">
+    <tr>
+      <th>Question</th>
+      <th>Selected Answer</th>
+      <th>Correct Answer</th>
+      <th>Score</th>
+    </tr>
+
+    <tr *ngFor="let questionAttempt of quiz.questionAttempts">
+      <td>{{questionAttempt.question.content}}</td>
+      <td>{{questionAttempt.selectedAnswer}}</td>
+      <td>{{questionAttempt.question.correctAnswer}}</td>
+      <td>{{questionAttempt.getScore()}}</td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  <a routerLink="/quiz" class="button-anchor restart-btn">Restart</a>
+</div>

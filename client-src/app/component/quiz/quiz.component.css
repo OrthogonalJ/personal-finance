@@ -1,0 +1,15 @@
+
+.answer-option-btn {
+    display: block;
+}
+
+.answer-options-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.next-btn {
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+}

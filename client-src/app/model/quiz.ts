@@ -24,6 +24,12 @@ export class Quiz {
     }
 
     currentQuestionIsAnswered(): boolean {
-        return this.questionAttempts[0].isAnswered();
+        return this.questionAttempts[this.currentQuestionIndex].isAnswered();
+    }
+
+    getTotalScore() {
+        return this.questionAttempts.reduce<number>(
+                (total: number, questionAttempt) => total + questionAttempt.getScore(), 
+                0);
     }
 }

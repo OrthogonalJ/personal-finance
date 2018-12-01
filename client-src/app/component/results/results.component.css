@@ -1,0 +1,13 @@
+.question-results-container {
+    margin: 10px 0px 10px 0px;
+}
+
+.question-results-tbl, .question-results-tbl th, .question-results-tbl td {
+    border: 1px solid black;
+}
+
+.restart-btn {
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+}
