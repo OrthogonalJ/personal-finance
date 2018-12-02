@@ -10,8 +10,17 @@ button, .button-anchor {
     color: #000000;
     border: 1px solid black;
     border-radius: 3px;
-    font: sans-serif;
+    font-family: sans-serif;
     padding: 1px 8px;
+    cursor: pointer;
+}
+
+
+
+button:disabled {
+    color: #8d8b84;
+    background-color: #efeeee;
+    cursor: default;
 }
 
 .button-anchor {

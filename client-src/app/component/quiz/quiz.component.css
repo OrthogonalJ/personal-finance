@@ -1,3 +1,29 @@
+.quiz-header-container {
+    height: 60px;
+}
+
+.quiz-header {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    /*margin-block-start: .83em;
+    margin-block-end: .83em;*/
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.quiz-header-container-right {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    /*margin-block-start: .83em;
+    margin-block-end: .83em;*/
+}
+
+.quiz-header-container-right span {
+    line-height: 60px;
+    vertical-align: middle;
+}
 
 .answer-option-btn {
     display: block;

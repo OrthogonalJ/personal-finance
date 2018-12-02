@@ -15,10 +15,12 @@ const SERVER_SRC_DIR = './server-src';
 
 const tsProject = ts.createProject("tsconfig.json");
 
-//// TASKS ////
+//// HELPER FUNCTIONS ////
 
-gulp.task('build-client', function(cb) {
-    exec('ng build', function(err, stdout, stderr) {
+function buildClient(cb, isProd) {
+    buildCmd = (isProd) ? 'ng build --prod': 'ng build';
+
+    exec(buildCmd, function(err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         
@@ -33,7 +35,31 @@ gulp.task('build-client', function(cb) {
             .on('error', function(err) { cb(err); });
 
     });
-});
+}
+
+
+//// TASKS ////
+
+gulp.task('build-client', (cb) => buildClient(cb, false));
+gulp.task('build-client-prod', (cb) => buildClient(cb, true));
+
+// gulp.task('build-client', function(cb) {
+//     exec('ng build', function(err, stdout, stderr) {
+//         console.log(stdout);
+//         console.log(stderr);
+        
+//         if (err !== null) {
+//             cb(err);
+//             return;
+//         }
+
+//         gulp.src(CLIENT_COMPILED_DIR + '/**')
+//             .pipe(gulp.dest(CLIENT_BUILD_DIR + '/'))
+//             .on('end', function() { cb(); })
+//             .on('error', function(err) { cb(err); });
+
+//     });
+// });
 
 gulp.task('build-server', function() {
     // trans-piles server typescript files to js and writes them to the build dir
@@ -47,3 +73,5 @@ gulp.task('clean', function() {
 })
 
 gulp.task('build-all', gulp.series('clean', 'build-client', 'build-server'));
+
+gulp.task('build-release', gulp.series('clean', 'build-client-prod', 'build-server'));
