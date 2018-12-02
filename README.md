@@ -24,3 +24,6 @@ A web app for a personal finance quiz based on the New South Wales HSC General M
     
     $ npm start
 6. The application can now be accessed by opening your web browser at http://localhost:8080
+
+This is an example of the quiz questions
+![Example question](./quiz-screenshot.png)
