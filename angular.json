@@ -19,7 +19,7 @@
             "polyfills": "client-src/polyfills.ts",
             "tsConfig": "client-src/tsconfig.app.json",
             "assets": [
-              "client-src/favicon.ico",
+              "client-src/quiz-game-icon.ico",
               "client-src/assets"
             ],
             "styles": [
@@ -83,7 +83,7 @@
             ],
             "scripts": [],
             "assets": [
-              "client-src/favicon.ico",
+              "client-src/quiz-game-icon.ico",
               "client-src/assets"
             ]
           }

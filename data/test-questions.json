@@ -1,0 +1,802 @@
+[
+{
+    "content": "What is the weekly salary of a part-time employee who receives an annual salary of $20 896?",
+    "correctAnswer": "$401.85",
+    "answerOptions": [
+        "$401.85",
+        "$435.34",
+        "$1741.34",
+        "$803.69"
+    ]
+},
+{
+    "content": "If Smacks is paid $19.80 per hour, what are Smacks’ earnings for a 32 hour week?",
+    "correctAnswer": "$633.60",
+    "answerOptions": [
+        "$554.40",
+        "$633.60",
+        "$396.00",
+        "$3326.40"
+    ]
+},
+{
+    "content": "Morgan is paid $4.79 per hour. She works 8 hours per day and 5 days a week. Her annual income is:",
+    "correctAnswer": "$9963.20",
+    "answerOptions": [
+        "$9963.20",
+        "$6227.00",
+        "$15941.12",
+        "$306.56"
+    ]
+},
+{
+    "content": "Melvin works 5 days per week, 10 hours per day. He receives an annual salary of $82 346. His hourly rate is:",
+    "correctAnswer": "$31.67",
+    "answerOptions": [
+        "$1646.92",
+        "$26.39",
+        "$31.67",
+        "$329.38"
+    ]
+},
+{
+    "content": "Nathan works 9 hours at normal time and 4 hours at time-and-a-half. If she receives $19.90 per hour; what is her day’s pay?",
+    "correctAnswer": "$298.50",
+    "answerOptions": [
+        "$268.65",
+        "$258.70",
+        "$298.50",
+        "$318.40"
+    ]
+},
+{
+    "content": "Bill works 1 month every year. He is paid a normal rate of $11.96 per hour. If he works 20 normal hours, 5 hour at time and a half and 4 hours at double time, what is his pay?",
+    "correctAnswer": "$424.58",
+    "answerOptions": [
+        "$448.50",
+        "$406.64",
+        "$424.58",
+        "$346.84"
+    ]
+},
+{
+    "content": "Sam is a train station assistant and is paid $24.25 per hour. If she works in the ticket boot she is given $100.00 danger money. Find Sam’s wage for a week in which she works 48 hours and works in the ticket booth for 5 days.",
+    "correctAnswer": "$1664.00",
+    "answerOptions": [
+        "$4345.00",
+        "$1664.00",
+        "$5964.00",
+        "$1864.00"
+    ]
+},
+{
+    "content": "Terry has two part-time jobs. He receives $12.38 per hour as shop assistant and $80.50 per hour as a dance teacher. Find his pay in a week if he works 12 hours as a shop assistant and 6 as a dance teacher.",
+    "correctAnswer": "$631.56",
+    "answerOptions": [
+        "$229.06",
+        "$631.56",
+        "$548.56",
+        "$231.00"
+    ]
+},
+{
+    "content": "Mathew works as a home removalist and is paid $25.60 per hour. He is paid a driving bonus of $30.00 per day if he has to drive a truck and $15.00 per day if he has to pack and unpack the truck. Find his pay in a week in which he works 47 hours, drives on four days and pack/unpacks the truck on three days.",
+    "correctAnswer": "$1368.20",
+    "answerOptions": [
+        "$1368.20",
+        "$1282.00",
+        "$1383.20",
+        "$1428.20"
+    ]
+},
+{
+    "content": "Ziptar is paid $14.82 per hour. Find his weekly wage if he works 20 hours a normal rate and 4 hours at double time.",
+    "correctAnswer": "$414.96",
+    "answerOptions": [
+        "$385.32",
+        "$444.60",
+        "$355.68",
+        "$414.96"
+    ]
+},
+{
+    "content": "Jasper is a gardener at the mall and is paid $42.60 an hour for a 49 hour week. Calculate his weekly wage.",
+    "correctAnswer": "$2087.40",
+    "answerOptions": [
+        "$1704.00",
+        "$14313.60",
+        "$4089.60",
+        "$2087.40"
+    ]
+},
+{
+    "content": "Max earns $2360.00 each week.  How much is his annual salary?",
+    "correctAnswer": "$122720.00",
+    "answerOptions": [
+        "$28320.00",
+        "$113280.00",
+        "$122720.00",
+        "$84960.00"
+    ]
+},
+{
+    "content": "Tina receives an annual salary of $146620.56. How much does she earn each week?",
+    "correctAnswer": "$2819.63",
+    "answerOptions": [
+        "$12218.38",
+        "$2819.63",
+        "$3054.60",
+        "$3665.50"
+    ]
+},
+{
+    "content": "Barry earns $467.00 per week. How much does she earn in the month of April?",
+    "correctAnswer": "$2001.43",
+    "answerOptions": [
+        "$1868.00",
+        "$2068.14",
+        "$2001.43",
+        "$14010.00"
+    ]
+},
+{
+    "content": "What is the weekly salary of a part-time employee who receives an annual salary of $34830.00",
+    "correctAnswer": "$669.88",
+    "answerOptions": [
+        "$725.63",
+        "$870.75",
+        "$696.6",
+        "$669.88"
+    ]
+},
+{
+    "content": "If Neptune is paid $23.30 per hour, what are Neptune’s earnings for a 41 hour week?",
+    "correctAnswer": "$955.30",
+    "answerOptions": [
+        "$1211.60",
+        "$886.39",
+        "$955.30",
+        "$921.60"
+    ]
+},
+{
+    "content": "Jackie works 7 hours at normal time and 5 hours at time-and-a-half. If she receives $27.33 per hour; what is her day’s pay?",
+    "correctAnswer": "$396.29",
+    "answerOptions": [
+        "$270.33",
+        "$396.29",
+        "$231.38",
+        "$314.30"
+    ]
+},
+{
+    "content": "An employee is paid $16.62 per hour. Find their weekly wage if the employee works 18 hours a normal rate and 6 hours at double time.",
+    "correctAnswer": "$448.74",
+    "answerOptions": [
+        "$349.02",
+        "$324.09",
+        "$498.60",
+        "$448.74"
+    ]
+},
+{
+    "content": "Lenin works as a home removalist and is paid $38.00 per hour. He is paid a driving bonus of $45.00 per day if he has to drive long distances and $27.00 per day if he has to pack and unpack the truck. Find his pay in a week in which he works 34 hours, drives long distances on five days and pack/unpacks the truck on two days.",
+    "correctAnswer": "$1571.00",
+    "answerOptions": [
+        "$1145.00",
+        "$1425.00",
+        "$990.00",
+        "$1571.00"
+    ]
+},
+{
+    "content": "Miguel earns $1804.00 each week.  How much is his annual salary?",
+    "correctAnswer": "$93808.00",
+    "answerOptions": [
+        "$86592.00",
+        "$90200.00",
+        "$97416.00",
+        "$93808.00"
+    ]
+},
+{
+    "content": "Heather sold a car valued at $54000. Calculate her commission if the rate of commission was 8%.",
+    "correctAnswer": "$4320.00",
+    "answerOptions": [
+        "$4320.00",
+        "$3780.00",
+        "$4050.00",
+        "$6750.00"
+    ]
+},
+{
+    "content": "Geoff earns $462.00 per week as well as 9% commission on sales. Calculate his total earnings for a week in which his sales are $10532.00",
+    "correctAnswer": "$1409.88",
+    "answerOptions": [
+        "$4076.56",
+        "$1409.88",
+        "$6386.56",
+        "$1327.66"
+    ]
+},
+{
+    "content": "Patrick is paid $45.60 per painted bathtub as a bathtub painter. How much is he paid In a week wherein he paints 22 bathtubs?",
+    "correctAnswer": "$1003.20",
+    "answerOptions": [
+        "$912.00",
+        "$1048.80",
+        "$866.40",
+        "$1003.20"
+    ]
+},
+{
+    "content": "Kevin is paid $9.00 per completed case as a keyboard case assembler. How much is he paid In a week wherein he assembles 75 cases?",
+    "correctAnswer": "$675.00",
+    "answerOptions": [
+        "$7500.00",
+        "$632.00",
+        "$675.00",
+        "$598.01"
+    ]
+},
+{
+    "content": "An Author is paid a royalty of 13% on all sales made from the distribution of their book. Find this author’s royalty on sales of $55000.00.",
+    "correctAnswer": "$7150.00",
+    "answerOptions": [
+        "$7150.00",
+        "$713.00",
+        "$$613.00",
+        "$7013.00"
+    ]
+},
+{
+    "content": "C.Cave is paid a royalty of 8.8% on all sales made from the distribution of her film. Find her royalty on sales of $939801.07.",
+    "correctAnswer": "$82702.49",
+    "answerOptions": [
+        "$$82719.91",
+        "$82702.49",
+        "$79555.03",
+        "$81308.80"
+    ]
+},
+{
+    "content": "Fransis charges $5.50 per reading to read people’s fortune. Find his earnings for a week in which he gives 4 reading per day.",
+    "correctAnswer": "$308.00",
+    "answerOptions": [
+        "$356.05",
+        "$269.50",
+        "$308.00",
+        "$280.00"
+    ]
+},
+{
+    "content": "Tracy charges $61.50 per repair to repair slot machines. Calculate how much she makes per hour if on average she makes two repairs in an 8 hour day.",
+    "correctAnswer": "$15.38",
+    "answerOptions": [
+        "$30.75",
+        "$14.50",
+        "$30.16",
+        "$15.38"
+    ]
+},
+{
+    "content": "Andrew sells two water features valued at $4442.09 in one week and earns 3.3% commission on his total weekly sales. Find his commission for the week.",
+    "correctAnswer": "$293.18",
+    "answerOptions": [
+        "$146.59",
+        "$$266.53",
+        "$293.18",
+        "$263.59"
+    ]
+},
+{
+    "content": "Anton sells four above ground pools valued at $8934.55 in one day and earns 6.9% commission on his total daily sales. Find his commission for the day.",
+    "correctAnswer": "$2465.94",
+    "answerOptions": [
+        "$2465.94",
+        "$616.48",
+        "$1232.97",
+        "$4253.74"
+    ]
+},
+{
+    "content": "Ulises sells two jumping castles valued at $3058.50 in one day and earns 5.4% commission on his total daily sales. Find his commission for the day.",
+    "correctAnswer": "$330.32",
+    "answerOptions": [
+        "$330.32",
+        "$263.031",
+        "$170.85",
+        "$385.37"
+    ]
+},
+{
+    "content": "Ray sells six ice cream trucks valued at $12504.96 in one week. Find his commission for that week if his commission rate is 3%.",
+    "correctAnswer": "$2250.89",
+    "answerOptions": [
+        "$3076.22",
+        "$3376.83",
+        "$2250.89",
+        "$4126.64"
+    ]
+},
+{
+    "content": "Lennie is paid $11.00 per completed cake as a cake decorator. How much is he paid in a week wherein he decorates 59 cakes?",
+    "correctAnswer": "$649.00",
+    "answerOptions": [
+        "$616.00",
+        "$550.01",
+        "$539.00",
+        "$649.00"
+    ]
+},
+{
+    "content": "An Author is paid a royalty of 21% on all sales made from their book. Find this author’s royalty on sales of $141066.02.",
+    "correctAnswer": "$29623.86",
+    "answerOptions": [
+        "$2961.00",
+        "$29623.86",
+        "$25608.54",
+        "$26802.38"
+    ]
+},
+{
+    "content": "James charges $9.20 per drawing to draw caricatures of people at park. Find his earnings for a week in which he draws 8 caricatures per day.",
+    "correctAnswer": "$515.20",
+    "answerOptions": [
+        "$450.80",
+        "$368.00",
+        "$515.20",
+        "$662.40"
+    ]
+},
+{
+    "content": "An Author is paid a royalty of 13.1% on all sales made from their book. Find this author’s royalty on sales of $211599.04.",
+    "correctAnswer": "$27719.47",
+    "answerOptions": [
+        "$23910.69",
+        "$42319.89",
+        "$126959.42",
+        "$27719.47"
+    ]
+},
+{
+    "content": "Agueda charges $85.94 per repair as an appliance services technician. Calculate how much she makes per hour if on average she makes four repairs in a 9 hour day.",
+    "correctAnswer": "$42.97",
+    "answerOptions": [
+        "$343.76",
+        "$42.97",
+        "$49.11",
+        "$687.52"
+    ]
+},
+{
+    "content": "Frankie charges $50.98 per restoration as a fabric mender. Calculate how much he makes in a week wherein he works 6 days and makes three restorations a day.",
+    "correctAnswer": "$917.64",
+    "answerOptions": [
+        "$1070.58",
+        "$152.94",
+        "$917.64",
+        "$203.92"
+    ]
+},
+{
+    "content": "Emile sold a car valued at $71643.90. Calculate his commission if the rate of commission was 15.9%.",
+    "correctAnswer": "$11391.38",
+    "answerOptions": [
+        "$9313.70",
+        "$13612.34",
+        "$64479.51",
+        "$11391.38"
+    ]
+},
+{
+    "content": "Rosalba sold house valued at $71643.90. Calculate her commission if the rate of commission was 12.6%.",
+    "correctAnswer": "$9027.13",
+    "answerOptions": [
+        "$9027.13",
+        "$8436.39",
+        "$3392.00",
+        "$3901.60"
+    ]
+},
+{
+    "content": "An employee is given 4 weeks pay plus 17.5% holiday loading. If the employee’s normal weekly pay is $1202.09, what is their holiday loading.",
+    "correctAnswer": "$841.46",
+    "answerOptions": [
+        "$210.37",
+        "$420.73",
+        "$841.46",
+        "$631.10"
+    ]
+},
+{
+    "content": "Sharon is paid $515.00 per week. She receives a holiday loading of 17.5% on 4 weeks holiday pay. Her total holiday pay is?",
+    "correctAnswer": "$2420.50",
+    "answerOptions": [
+        "$2420.50",
+        "$360.50",
+        "$875.50",
+        "$1442.00"
+    ]
+},
+{
+    "content": "An employee receives a yearly wage of $208400.00. If at the end of the year she also receives a bonus of 10.9% of her yearly wage, what is her total income for the year?",
+    "correctAnswer": "$231115.60",
+    "answerOptions": [
+        "$2715.60",
+        "$2388.00",
+        "$212109.60",
+        "$231115.60"
+    ]
+},
+{
+    "content": "Find a 7.8% bonus on an annual salary of $48590.00",
+    "correctAnswer": "$3790.02",
+    "answerOptions": [
+        "$3822.00",
+        "$3790.02",
+        "$4676.88",
+        "$2915.40"
+    ]
+},
+{
+    "content": " Jake is 16; he earns $509.00 per fortnight and is living at home. Youth Allowance provides at an allowance at a rate of $226.80 for single persons under 18 years who are living at home. It reduces by 50 cents for every dollar in excess of $143 earned per fortnight. Jake’s allowance is:",
+    "correctAnswer": "$165.90",
+    "answerOptions": [
+        "$165.90",
+        "$110.20",
+        "$196.38",
+        "$218.22"
+    ]
+},
+{
+    "content": "Find a 6.5% bonus on an annual salary of $70066.10",
+    "correctAnswer": "$4554.30",
+    "answerOptions": [
+        "$4554.30",
+        "$6656.28",
+        "$5348.00",
+        "$5254.96"
+    ]
+},
+{
+    "content": "Richard is paid $314.15 per week. He receives a holiday loading of 17.5% on 4 weeks holiday pay. His total holiday pay is?",
+    "correctAnswer": "$1311.58",
+    "answerOptions": [
+        "$219.91",
+        "$534.06",
+        "$1476.51",
+        "$1311.58"
+    ]
+},
+{
+    "content": "Custen received 17.5% holiday loading on four weeks normal wages. If his total holiday pay is $10904.00, what is his normal weekly pay?",
+    "correctAnswer": "$2611.74",
+    "answerOptions": [
+        "$8350.00",
+        "$1975.40",
+        "$2611.74",
+        "$1908.20"
+    ]
+},
+{
+    "content": "Jeff is a lettuce farmer and receives a yearly wage of $76900.00. If he also receives a bonus of 2.7% of his yearly wage at the end of the year, what is his total income for the year?",
+    "correctAnswer": "$78976.30",
+    "answerOptions": [
+        "$78976.30",
+        "$80600.98",
+        "$97663.00",
+        "$82436.80"
+    ]
+},
+{
+    "content": "LettuceFarm Ltd made a profit of $556800.00 at the end of the year. The company is rewarding their employees by giving them a bonus of 2% of the profits. If an employee receiving the bonus earns $45550.00 per year, what is their total income for that year?",
+    "correctAnswer": "$56686.00",
+    "answerOptions": [
+        "$46461.00",
+        "$557711.00",
+        "$57597.00",
+        "$56686.00"
+    ]
+},
+{
+    "content": "An employee receives a yearly wage of $110643.00. If at the end of the year he also receives a bonus of 10.9% of his yearly wage, what is his total income for the year?",
+    "correctAnswer": "$122703.09",
+    "answerOptions": [
+        "$122813.73",
+        "$111699.38",
+        "$122149.87",
+        "$122703.09"
+    ]
+},
+{
+    "content": "Marcus is 19, living at home and studying full-time. He is eligible for a fortnightly Youth Allowance payment of $272.80 which reduces by 50 cents for every dollar he earns over $143 per fortnight. If he earns $230.00 per fortnight, what is his allowance?",
+    "correctAnswer": "$229.30",
+    "answerOptions": [
+        "$185.80",
+        "$229.30",
+        "$246.70",
+        "$159.70"
+    ]
+},
+{
+    "content": "Rosaria is 17, living away from home and studying full-time. She is eligible for a fortnightly Youth Allowance payment of $414.40 which reduces by 50 cents for every dollar she earns over $143 per fortnight. If she earns $213.00 per fortnight, what is her allowance?",
+    "correctAnswer": "$379.40",
+    "answerOptions": [
+        "$379.40",
+        "$351.40",
+        "$344.40",
+        "$274.40"
+    ]
+},
+{
+    "content": "A Fishery made a profit of $416403.10 at the end of the year. The business is rewarding some of its employees by giving them a bonus of 2% of the profits. If an employee receiving the bonus earns $53650.00 per year, what is their total income for that year?",
+    "correctAnswer": "$61978.06",
+    "answerOptions": [
+        "$470053.10",
+        "$54723.00",
+        "$63051.06",
+        "$61978.06"
+    ]
+},
+{
+    "content": "Find a 4% bonus on an annual salary of $90140.00",
+    "correctAnswer": "$3605.60",
+    "answerOptions": [
+        "$36056.00",
+        "$3605.60",
+        "$72112.00",
+        "$7211.20"
+    ]
+},
+{
+    "content": "Pasty is paid $572.25 per week. She receives a holiday loading of 17.5% on 4 weeks holiday pay. Her total holiday pay is:",
+    "correctAnswer": "$2685.58",
+    "answerOptions": [
+        "$824.75",
+        "$400.58",
+        "$972.83",
+        "$2685.58"
+    ]
+},
+{
+    "content": "Solia is paid $763.50 per week. She receives a holiday loading of 17.5% on 4 weeks holiday pay. Her total holiday pay is:",
+    "correctAnswer": "$3588.45",
+    "answerOptions": [
+        "$1297.95",
+        "$534.45",
+        "$3588.45",
+        "$3187.61"
+    ]
+},
+{
+    "content": "Glover receives a yearly wage of $51361.67. If he also receives a bonus of 1.8% of his yearly wage at the end of the year, what is his total income for the year?",
+    "correctAnswer": "$52286.18",
+    "answerOptions": [
+        "$9245.10",
+        "$52286.18",
+        "$893.75",
+        "$66401.67"
+    ]
+},
+{
+    "content": "Rodney receives a yearly wage of $81602.78. If he also receives a bonus of 12.3% of his yearly wage at the end of the year, what is his total income for the year?",
+    "correctAnswer": "$91639.92",
+    "answerOptions": [
+        "$1003.71",
+        "$10037.14",
+        "$91639.92",
+        "$17952.61"
+    ]
+},
+{
+    "content": "An employee receives a yearly wage of $60284.96. If at the end of the year he also receives a bonus of 7.4% of his yearly wage, what is his total income for the year?",
+    "correctAnswer": "$64746.05",
+    "answerOptions": [
+        "$64746.05",
+        "$133755.83",
+        "$7347.41",
+        "$4461.09"
+    ]
+},
+{
+    "content": "Melvin’s gross weekly income is $952.25. Calculate his net income if his weekly deductions are tax of $57.14, property expenses of $68.00 and car insurance of $10.85.",
+    "correctAnswer": "$816.26",
+    "answerOptions": [
+        "$816.26",
+        "$856.20",
+        "$944.37",
+        "$925.61"
+    ]
+},
+{
+    "content": "Helen’s gross weekly income is $1350.11 . Calculate her net income if his weekly deductions are tax of $135.50, property expenses of $138.10 and health insurance of $15.80.",
+    "correctAnswer": "$1060.71",
+    "answerOptions": [
+        "$1147.00",
+        "$1060.71",
+        "$998.70",
+        "$960.38"
+    ]
+},
+{
+    "content": "An employee earns $91090.00 p.a.. If their employer pays superannuation of 6% on their behalf and they contribute 5% themself, calculate the total amount paid into superannuation.",
+    "correctAnswer": "$10019.90",
+    "answerOptions": [
+        "$9746.63",
+        "$8835.73",
+        "$10019.90",
+        "$10602.88"
+    ]
+},
+{
+    "content": "Evan’s gross income is $966.72 per week. He contributes 4% of this to his superannuation and his employer contributes 11%. Calculate his total weekly contribution to his superannuation.",
+    "correctAnswer": "$145.01",
+    "answerOptions": [
+        "$212.69",
+        "$77.34",
+        "$96.67",
+        "$145.01"
+    ]
+},
+{
+    "content": "Charlie earns $77315.00 p.a.. Calculate her net annual income if she has 12% tax taken out and contributes 9% to superannuation.",
+    "correctAnswer": "$61078.85",
+    "answerOptions": [
+        "$16236.15",
+        "$61078.85",
+        "$65717.75",
+        "$70356.65"
+    ]
+},
+{
+    "content": "Peter earns $65081.43 p.a.. Calculate his net annual income if he has 9% tax taken out and contributes 4% to superannuation.",
+    "correctAnswer": "$56620.84",
+    "answerOptions": [
+        "$56620.84",
+        "$61620.30",
+        "$50620.41",
+        "$45620.65"
+    ]
+},
+{
+    "content": "An employee receives a net income of $414.81 per week. Their deductions are tax of $23.06, property expenses of $182.45 and car insurance of $18.51. Find the employee’s gross weekly income.",
+    "correctAnswer": "$638.83",
+    "answerOptions": [
+        "$619.91",
+        "$638.83",
+        "$558.25",
+        "$751.36"
+    ]
+},
+{
+    "content": "Andrew receives a net income of $391.46 per week. His deductions are tax of $15.39, property expenses of $210.00 and health insurance of $25.50. Find the employee’s gross weekly income.",
+    "correctAnswer": "$642.35",
+    "answerOptions": [
+        "$511.38",
+        "$650.73",
+        "$351.46",
+        "$642.35"
+    ]
+},
+{
+    "content": "Victor receives an annual salary of $82230.00. If his yearly superannuation payment in retirement will be 55% of his salary, his yearly payment will be:",
+    "correctAnswer": "$45226.50",
+    "answerOptions": [
+        "$53443.60",
+        "$43241.31",
+        "$45226.50",
+        "$33981.93"
+    ]
+},
+{
+    "content": "Vince receives an annual salary of $96593.69. If his yearly superannuation payment in retirement will be 61% of his salary, his yearly payment will be:",
+    "correctAnswer": "$58922.15",
+    "answerOptions": [
+        "$58922.15",
+        "$40563.72",
+        "$42721.96",
+        "$56290.39"
+    ]
+},
+{
+    "content": "An employee receives a net income of $649.37 per week. Their deductions are tax of $35.30, property expenses of $205.80 and car insurance of $31.96. Find the employee’s gross weekly income.",
+    "correctAnswer": "$922.43",
+    "answerOptions": [
+        "$922.43",
+        "$649.20",
+        "$376.31",
+        "$848.07"
+    ]
+},
+{
+    "content": "Barry’s gross weekly income is $797.82. Calculate his net income if his weekly deductions are tax of $69.49, property expenses of $78.04 and car insurance of $22.19.",
+    "correctAnswer": "$618.10",
+    "answerOptions": [
+        "$503.74",
+        "$618.10",
+        "$967.54",
+        "$581.29"
+    ]
+},
+{
+    "content": "Ardell earns $73116.00 p.a.. If her employer pays superannuation of 5% on her behalf and she contributes 3% herself, calculate the total amount paid into superannuation.",
+    "correctAnswer": "$5849.28",
+    "answerOptions": [
+        "$2083.81",
+        "$78965.28",
+        "$5849.28",
+        "$5118.12"
+    ]
+},
+{
+    "content": "Vaughn’s gross income is $1451.70 per week. He contributes 7% of this to his superannuation and his employer contributes 16%. Calculate his total weekly contribution to his superannuation.",
+    "correctAnswer": "$333.89",
+    "answerOptions": [
+        "$317.63",
+        "$333.89",
+        "$405.40",
+        "$245.36"
+    ]
+},
+{
+    "content": "Shemika earns a gross income of $57986.25 p.a.. Calculate her net annual income if she pays $52187.63 tax taken out and personally contributes 8% to superannuation.",
+    "correctAnswer": "$48128.59",
+    "answerOptions": [
+        "$57406.39",
+        "$47986.25",
+        "$54047.90",
+        "$48128.59"
+    ]
+},
+{
+    "content": "Lance’s monthly gross income $56403.91 p.a.. Calculate his net monthly income if he has 7.8% tax taken out and personally contributes 3% to superannuation.",
+    "correctAnswer": "$50312.29",
+    "answerOptions": [
+        "$51468.69",
+        "$50022.86",
+        "$50312.29",
+        "$62495.53"
+    ]
+},
+{
+    "content": "An employee receives a net income of $561.01 per week. Their deductions are tax of $33.06, property expenses of $131.85 and car insurance of $21.01. Find the employee’s gross weekly income.",
+    "correctAnswer": "$746.93",
+    "answerOptions": [
+        "$375.09",
+        "$746.93",
+        "$713.87",
+        "$396.10"
+    ]
+},
+{
+    "content": "An employee receives a net income of $276.54 per week. Their deductions are tax of $19.82, property expenses of $156.89 and car insurance of $20.31. Find the employee’s gross weekly income.",
+    "correctAnswer": "$472.56",
+    "answerOptions": [
+        "$453.74",
+        "$515.74",
+        "$472.56",
+        "$79.52"
+    ]
+},
+{
+    "content": "Erika earns $634803.00 p.a.. Calculate her net annual income if she has 9% tax taken out and contributes 5% to superannuation.",
+    "correctAnswer": "$545930.58",
+    "answerOptions": [
+        "$88872.42",
+        "$548787.19",
+        "$606554.27",
+        "$545930.58"
+    ]
+},
+{
+    "content": "Erika earns a gross income of $94005.00 p.a.. Calculate her weekly deductions if she pays 235.01 tax taken out and contributes 5% to superannuation.",
+    "correctAnswer": "$325.40",
+    "answerOptions": [
+        "$1482.39",
+        "$93679.00",
+        "$325.40",
+        "$144.62"
+    ]
+}
+]

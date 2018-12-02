@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {Quiz} from '../../model/quiz';
 import {QuizService} from '../../service/quiz.service';
-import {Timer} from '../../model/timer';
 
 
 @Component({

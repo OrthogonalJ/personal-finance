@@ -32,8 +32,9 @@ export class Quiz {
 
     getTotalScore(): number {
         return this.questionAttempts.reduce<number>(
-                (total: number, questionAttempt) => total + questionAttempt.getScore(), 
-                0);
+            (total: number, questionAttempt) => total + questionAttempt.getScore(), 
+            0
+        );
     }
 
     length(): number {
