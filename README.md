@@ -1,6 +1,8 @@
 # Personal Finance Quiz
 A web app for a personal finance quiz based on the New South Wales HSC General Maths 2 syllabus. The quiz includes 80 original multiple choice questions.
 
+I created this app to learn angular.
+
 ## Getting Started
 
 ### Prequisites
