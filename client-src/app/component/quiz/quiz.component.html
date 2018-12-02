@@ -1,11 +1,11 @@
 <div>
   <h2>Question</h2>
-  <p>{{quiz.currentQuestion.content}}</p>
+  <p>{{quiz?.currentQuestion.content}}</p>
 </div>
 
 <p class="answer-options-header">Select an answer:</p>
 <div class="answer-options-container">
-  <div *ngFor="let answerOption of quiz.currentQuestion.answerOptions" class="answer-option-btn">
+  <div *ngFor="let answerOption of quiz?.currentQuestion.answerOptions" class="answer-option-btn">
     <input type="radio" name="answer-options" [value]="answerOption"
         [(ngModel)]="selectedAnswer"
         (click)="onAnswerOptionClick(answerOption)">
@@ -14,7 +14,7 @@
 </div>
 
 <div>
-  <button class="next-btn" (click)="onNextBtnClick()" [disabled]="!quiz.currentQuestionIsAnswered()">
-    {{quiz.hasNextQuestion() ? "Next" : "Finish"}}
+  <button class="next-btn" (click)="onNextBtnClick()" [disabled]="!quiz?.currentQuestionIsAnswered()">
+    {{quiz?.hasNextQuestion() ? "Next" : "Finish"}}
   </button>
 </div>

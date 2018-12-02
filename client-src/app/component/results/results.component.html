@@ -1,5 +1,5 @@
 <h1> Results </h1>
-<p>Total Score: {{quiz.getTotalScore()}}</p>
+<p>Total Score: {{quiz?.getTotalScore()}}</p>
 
 
 <div class="question-results-container">
@@ -11,7 +11,7 @@
       <th>Score</th>
     </tr>
 
-    <tr *ngFor="let questionAttempt of quiz.questionAttempts">
+    <tr *ngFor="let questionAttempt of quiz?.questionAttempts">
       <td>{{questionAttempt.question.content}}</td>
       <td>{{questionAttempt.selectedAnswer}}</td>
       <td>{{questionAttempt.question.correctAnswer}}</td>

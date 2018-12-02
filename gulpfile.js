@@ -6,17 +6,19 @@ const ts = require("gulp-typescript");
 //// CONSTANTS ////
 
 const BUILD_DIR = './build';
+const COMPILED_DIR = './dist';
 const SERVER_BUILD_DIR = BUILD_DIR;
 const CLIENT_BUILD_DIR = BUILD_DIR + '/client';
-const CLIENT_COMPILED_DIR = './dist/quiz-game';
-const SERVER_SRC_DIR = './server-src'
+const CLIENT_COMPILED_DIR = COMPILED_DIR + '/quiz-game';
+const SERVER_SRC_DIR = './server-src';
+
 
 const tsProject = ts.createProject("tsconfig.json");
 
 //// TASKS ////
 
 gulp.task('build-client', function(cb) {
-    exec('ng build --prod', function(err, stdout, stderr) {
+    exec('ng build', function(err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         
@@ -34,13 +36,14 @@ gulp.task('build-client', function(cb) {
 });
 
 gulp.task('build-server', function() {
+    // trans-piles server typescript files to js and writes them to the build dir
     return gulp.src(SERVER_SRC_DIR + '/**/*.ts')
         .pipe(tsProject())
         .js.pipe(gulp.dest(SERVER_BUILD_DIR + '/'));
 });
 
 gulp.task('clean', function() {
-    return del([BUILD_DIR + '/*', CLIENT_COMPILED_DIR]);
+    return del([BUILD_DIR + '/*', COMPILED_DIR + '/*']);
 })
 
 gulp.task('build-all', gulp.series('clean', 'build-client', 'build-server'));
