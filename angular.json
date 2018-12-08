@@ -23,7 +23,8 @@
               "client-src/assets"
             ],
             "styles": [
-              "client-src/styles.css"
+              "client-src/styles.css",
+              "client-src/material-theme.scss"
             ],
             "scripts": []
           },
@@ -79,7 +80,8 @@
             "tsConfig": "client-src/tsconfig.spec.json",
             "karmaConfig": "client-src/karma.conf.js",
             "styles": [
-              "client-src/styles.css"
+              "client-src/styles.css",
+              "client-src/material-theme.scss"
             ],
             "scripts": [],
             "assets": [

@@ -1,0 +1,18 @@
+<div class="settings-container">
+  <div class="num-questions-controls-container">
+    <span>Number of Questions: </span> 
+    <!-- <input type="number" [(ngModel)]="settings.numQuestions"
+            min="5" max="80" step="5" value="10"> -->
+    <mat-slider class="num-questions-control" [(ngModel)]="settings.numQuestions" min="5" max="80" step="5" 
+            value="10" tickInterval="1"></mat-slider>
+    <span class="num-questions-control-value-label">{{settings.numQuestions}}</span>
+  </div>
+  <div>
+    <span>Show Timer</span>
+    <input type="checkbox" [(ngModel)]="settings.showTimer" name="show-settings">
+  </div>
+</div>
+
+<div>
+  <a class="button-anchor" (click)="onStartBtnClick()">Start Quiz</a>
+</div>
