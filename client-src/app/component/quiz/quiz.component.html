@@ -1,7 +1,7 @@
 <div class="quiz-header-container">
     <span class="quiz-header">Question {{questionNumber}}/{{quiz?.length()}}</span>
     <div class="quiz-header-container-right">
-      <span class="quiz-time">{{quiz?.timer.ellapsedTime | date: 'mm:ss'}}</span>
+      <span *ngIf="settings.showTimer" class="quiz-time">{{quiz?.timer.ellapsedTime | date: 'mm:ss'}}</span>
     </div>
 </div>
 

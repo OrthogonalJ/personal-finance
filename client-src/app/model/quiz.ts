@@ -33,8 +33,13 @@ export class Quiz {
     getTotalScore(): number {
         return this.questionAttempts.reduce<number>(
             (total: number, questionAttempt) => total + questionAttempt.getScore(), 
-            0
-        );
+            0 /* initial value */);
+    }
+
+    getMaxScore(): number {
+        return this.questionAttempts.reduce<number>(
+            (total: number, questionAttempt) => total + questionAttempt.question.maxScore,
+            0 /* initial value */);
     }
 
     length(): number {

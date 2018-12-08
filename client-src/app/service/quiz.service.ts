@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 import {Observable, of} from 'rxjs';
 import {catchError, map, tap} from 'rxjs/operators';
 import {Quiz} from '../model/quiz';
@@ -18,11 +18,16 @@ import {Question} from '../model/question';
 export class QuizService {
   readonly questionsUrl: string = 'api/questions';
   private quiz: Quiz = null;
+  private httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json'
+    })
+  };
 
   constructor(private http: HttpClient) {}
 
-  getNewQuiz(): Observable<Quiz> {
-    return this.getQuestions()
+  getNewQuiz(numQuestions: number): Observable<Quiz> {
+    return this.getQuestions(numQuestions)
       .pipe(
         map((questions: Question[]): Quiz => {
           this.quiz = new Quiz(questions);
@@ -48,12 +53,14 @@ export class QuizService {
     return of(this.quiz);
   }
 
-  getQuestions(): Observable<Question[]> {
-    return this.http.get<any[]>(this.questionsUrl)
+  getQuestions(numQuestions: number): Observable<Question[]> {
+    let options = { params: new HttpParams().set('numQuestions', numQuestions.toString()) };
+
+    return this.http.get<any[]>(this.questionsUrl, options)
       .pipe(
-        map((rawQuestions: any[]) => rawQuestions.map(q => Question.fromObject(q))),
+        map((rawQuestions: any[]): Question[] => rawQuestions.map(q => Question.fromObject(q))),
         tap(_ => console.log('fetched questions')),
-        catchError((err) => {
+        catchError(err => {
           console.error(err);
           return of([] as Question[]);
         })

@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 
+/**
+ * Singleton model class
+ */
 @Injectable({
     providedIn: 'root'
 })

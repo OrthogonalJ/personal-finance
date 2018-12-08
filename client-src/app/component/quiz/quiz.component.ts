@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {Quiz} from '../../model/quiz';
 import {QuizService} from '../../service/quiz.service';
+import {Settings} from '../../model/settings';
 
 
 @Component({
@@ -15,13 +16,17 @@ export class QuizComponent implements OnInit {
   selectedAnswer: string = null;
   questionNumber: number = 1;
 
-  constructor(private quizService: QuizService, private router: Router) {}
+  constructor(
+      private router: Router, 
+      private quizService: QuizService, 
+      public settings: Settings) {}
 
   ngOnInit() {
-    this.quizService.getNewQuiz().subscribe(quiz => {
+    this.quizService.getNewQuiz(this.settings.numQuestions).subscribe(quiz => {
       this.quiz = quiz;
       this.quiz.timer.start();
     });
+    console.log(this.settings);
   }
 
   onAnswerOptionClick(selectedAnswer: string) {

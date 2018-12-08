@@ -10,7 +10,11 @@ apiRouter.get('/test', (req, res) => {
     res.send('Hello, World!');
 });
 
-apiRouter.get('/questions', apiController.getQuestions);
+apiRouter.get('/querytest', (req, res) => {
+    res.send('ID: ' + req.query.id);
+});
+
+apiRouter.get('/questions/', apiController.getQuestions);
 
 
 

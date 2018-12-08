@@ -1,5 +1,6 @@
+
 <h1> Results </h1>
-<p>Total Score: {{quiz?.getTotalScore()}}</p>
+<p>Total Score: {{quiz?.getTotalScore()}}/{{quiz?.getMaxScore()}}</p>
 <p>Time Taken: {{quiz?.timer.ellapsedTime | date: 'mm:ss'}}</p>
 
 
@@ -22,5 +23,5 @@
 </div>
 
 <div>
-  <a routerLink="/quiz" class="button-anchor restart-btn">Restart</a>
+  <a routerLink="/launchquiz" class="button-anchor restart-btn">Restart</a>
 </div>

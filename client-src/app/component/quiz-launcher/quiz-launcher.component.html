@@ -1,4 +1,10 @@
+<div>
+  <h2 class="h2">New Quiz</h2>
+</div>
 <div class="settings-container">
+
+  <h3 class="settings-header">Settings</h3>
+
   <div class="num-questions-controls-container">
     <span>Number of Questions: </span> 
     <!-- <input type="number" [(ngModel)]="settings.numQuestions"
@@ -7,12 +13,13 @@
             value="10" tickInterval="1"></mat-slider>
     <span class="num-questions-control-value-label">{{settings.numQuestions}}</span>
   </div>
+
   <div>
-    <span>Show Timer</span>
-    <input type="checkbox" [(ngModel)]="settings.showTimer" name="show-settings">
+    <span>Show Timer: </span>
+    <input class="show-timer-control" type="checkbox" [(ngModel)]="settings.showTimer" name="show-settings">
   </div>
+
 </div>
 
-<div>
-  <a class="button-anchor" (click)="onStartBtnClick()">Start Quiz</a>
-</div>
+
+<a class="button-anchor start-quiz-btn" (click)="onStartBtnClick()" routerLink="/quiz">Start Quiz</a>

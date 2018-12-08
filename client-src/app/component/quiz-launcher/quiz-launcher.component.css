@@ -1,3 +1,11 @@
+.settings-container {
+    margin: 20px 0 0 0 0;
+}
+
+.settings-header {
+    margin: 0 0 10px 0;
+}
+
 .num-questions-control {
     padding: 0px 10px;
 }
@@ -5,3 +13,12 @@
 .num-questions-control-value-label {
     padding-left: 10px;
 }
+
+.start-quiz-btn {
+    margin: 20px 0 0 0;
+}
+
+.show-timer-control {
+    vertical-align: middle;
+}
+

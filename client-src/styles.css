@@ -5,6 +5,16 @@ body, html {
     margin: 0;
 }
 
+/* HEADERS */
+
+.h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* BUTTONS */
+
 button, .button-anchor {
     background-color: #efeeee;
     color: #000000;
@@ -14,8 +24,6 @@ button, .button-anchor {
     padding: 1px 8px;
     cursor: pointer;
 }
-
-
 
 button:disabled {
     color: #8d8b84;
